@@ -1,0 +1,69 @@
+character_Poseidon
+        => nrel_main_idtf: 
+            [Посейдон] (* <-lang_ru;; *);
+		  [Poseidon] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Посейдон)] (* <-lang_ru;; *);
+				[Description of character(Poseidon)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Poseidon_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Poseidon_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Посейдон)](*<-lang_ru;;*);
+		[Pic. (Poseidon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Poseidon.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_father: charcter_Kronos;
+		
+=>nrel_mother: character_Rhea;
+
+=>nrel_sibling: character_Hades;
+
+=>nrel_sibling: character_Demeter;
+
+=>nrel_sibling: character_Hestia;
+
+=>nrel_sibling: character_Hera;
+
+=>nrel_sibling: character_Zeus;
+
+=>nrel_sibling: character_Chiron;
+
+=>nrel_child: character_Theseus;
+
+=>nrel_child: character_Triton;
+
+=>nrel_child: character_Polyphemus;
+
+=>nrel_child: character_Orion;
+
+=>nrel_child: character_Belus;
+
+=>nrel_child: character_Agenor;
+
+=>nrel_child: character_Neleus;
+
+=>nrel_child: character_Atlas;
+
+=>nrel_child: character_Pegasus;
+
+=>nrel_child: character_Chrysaor;
+
+=>nrel_child: character_Cymopolea;
+		
+=>nrel_place_of_birth: iseland_Krit;			
+
+=>nrel_attribute: Trident;;

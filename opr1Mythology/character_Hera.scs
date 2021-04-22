@@ -1,0 +1,57 @@
+character_Hera
+        => nrel_main_idtf: 
+            [Гера] (* <-lang_ru;; *);
+		  [Hera] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Гера)] (* <-lang_ru;; *);
+				[Description of character(Hera)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Hera_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Hera_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Гера)](*<-lang_ru;;*);
+		[Pic. (Hera)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Hera.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_father: charcter_Kronos;
+		
+=>nrel_mother: character_Rhea;
+
+=>nrel_sibling: character_Hades;
+
+=>nrel_sibling: character_Demeter;
+
+=>nrel_sibling: character_Hestia;
+
+=>nrel_sibling: character_Poseidon;
+
+=>nrel_sibling: character_Zeus;
+
+=>nrel_sibling: character_Chiron;
+
+=>nrel_child: character_Angelos;
+
+=>nrel_child: character_Ares;
+
+=>nrel_child: character_Eileithyia;
+
+=>nrel_child: character_Enyo;
+
+=>nrel_child: character_Eris;
+
+=>nrel_child: character_Hebe;
+
+=>nrel_child: character_Hephaestus;;

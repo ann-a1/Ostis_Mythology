@@ -1,0 +1,41 @@
+character_Uranus
+        => nrel_main_idtf: 
+            [Уран] (* <-lang_ru;; *);
+		  [Uranus] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Уран)] (* <-lang_ru;; *);
+				[Description of character(Uranus)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Uranus_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Uranus_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Уран)](*<-lang_ru;;*);
+		[Pic. (Uranus)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Uranus.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_child: character_Titans;
+
+=>nrel_child: character_Cyclopes;
+
+=>nrel_child: character_Meliae;
+
+=>nrel_child: character_Erinyes;
+
+=>nrel_child: character_Giants;
+
+=>nrel_child: character_Hekatonkheires;
+
+=>nrel_child: character_Aphrodite;;

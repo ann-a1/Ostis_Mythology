@@ -1,0 +1,55 @@
+character_Demeter
+        => nrel_main_idtf: 
+            [Деметра] (* <-lang_ru;; *);
+		  [Demeter] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Деметра)] (* <-lang_ru;; *);
+				[Description of character(Demeter)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Demeter_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Demeter_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Деметра)](*<-lang_ru;;*);
+		[Pic. (Demeter)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Demeter.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_father: charcter_Kronos;
+		
+=>nrel_mother: character_Rhea;
+
+=>nrel_sibling: character_Hades;
+
+=>nrel_sibling: character_Poseidon;
+
+=>nrel_sibling: character_Hestia;
+
+=>nrel_sibling: character_Hera;
+
+=>nrel_sibling: character_Zeus;
+
+=>nrel_sibling: character_Chiron;
+
+=>nrel_child: character_Persephone;
+
+=>nrel_child: character_Despoina;
+
+=>nrel_child: character_Arion;
+
+=>nrel_child: character_Plutus;
+
+=>nrel_child: character_Philomelus;
+
+=>nrel_child: character_Iacchus;;

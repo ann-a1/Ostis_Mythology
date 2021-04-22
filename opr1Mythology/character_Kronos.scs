@@ -1,0 +1,67 @@
+character_Kronos
+        => nrel_main_idtf: 
+            [Кронос] (* <-lang_ru;; *);
+		  [Kronos] (* <-lang_en;; *);
+		  
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Кронос)] (* <-lang_ru;; *);
+				[Description of character(Kronos)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                     ->rrel_example:"file://HTML/character_Kronos_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/character_Kronos_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                    *);
+<- rrel_key_sc_element:...
+	(*                        
+<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кронос)](*<-lang_ru;;*);
+		[Pic. (Kronos)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Kronos.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);
+
+=>nrel_father: charcter_Uranus;
+		
+=>nrel_mother: character_Gaia;
+
+=>nrel_sibling: character_Crius;
+
+=>nrel_sibling: character_Coeus;
+
+=>nrel_sibling: character_Hyperion;
+
+=>nrel_sibling: character_Lapetus;
+
+=>nrel_sibling: character_Oceanus;
+
+=>nrel_sibling: character_Mnemosyne;
+
+=>nrel_sibling: character_Phoebe;
+
+=>nrel_sibling: character_Rhea;
+
+=>nrel_sibling: character_Tethys;
+
+=>nrel_sibling: character_Theia;
+
+=>nrel_sibling: character_Themis;
+
+=>nrel_child: character_Zeus;
+
+=>nrel_child: character_Hera;
+
+=>nrel_child: character_Hades;
+
+=>nrel_child: character_Hestia;
+
+=>nrel_child: character_Demeter;
+
+=>nrel_child: character_Poseidon;
+
+=>nrel_child: character_Chiron;;
